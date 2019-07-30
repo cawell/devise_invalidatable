@@ -29,7 +29,7 @@ class DeviseInvalidatableGenerator < Rails::Generators::NamedBase
       create_migration_file
     end
 
-    inject_devise_directives_into_model
+    # inject_devise_directives_into_model
   end
 
   private
